@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria Palacios Pets </title>
+    <link rel="icon" type="image/png" href="./img/vete.png">
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -16,16 +17,21 @@
             <nav>
                 <ul class="List-Nav">
                     <li class="item-nav">
-                        <a href="#inicio"> Inicio </a> 
+                        <a href="#inicio" class="btn-inicio"> Inicio </a>
                     </li>
                     <li class="item-nav">
-                        <a href="#quienes-somos"> Quienes somos </a>
+                        <a href="#quienes-somos" class="btn-quienes-somos"> Quienes somos </a>
                     </li>
                     <li class="item-nav">
-                        <a href=""> Ubicación </a>
+                        <a target="_blank"
+                            href="https://www.google.com.ar/maps/place/GNI,+Gral.+Acha+451,+B1704+Ramos+Mej%C3%ADa,+Provincia+de+Buenos+Aires/@-34.6487619,-58.5495449,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc87395334b43:0xff8b22dae3be8a26!8m2!3d-34.6487663!4d-58.5473562"
+                            class="btn-ubicacion"> Ubicación </a>
                     </li>
                     <li class="item-nav">
                         <a href=" #contacto" class="btn-contacto"> Contacto </a>
+                    </li>
+                    <li class="item-nav">
+                        <a href=" #urgencias" class="btn-urgencias"> Urgencias </a>
                     </li>
                 </ul>
             </nav>
@@ -33,8 +39,17 @@
         </div>
         <div class="portada"></div>
 
+        <section class="section-vete-horario">
+            <div class="container-vete-horario">
+                <h2 class="horas"> - VETERINARIA ABIERTO 24 hs - </h2>
+                <p class="parrafo" id="urgencias">Servicio De Urgencias Veterinarias en Ramos Mejía
+                    Abierto 24 hs</p>
+                <span class="presu"></span> <a href=" #urgencias" class="btn-presu"> Solicitar Presupuesto </a>
+            </div>
+        </section>
     </header>
-    <section class="section-quienes-somos" id="quienes-somos" >
+
+    <section class="section-quienes-somos" id="quienes-somos">
         <div class="container-quienes-somos">
             <img class="img-quines-somos" src="./img/quienes somos.jpg" alt="Quienes somos">
             <p class="p-quienes-somos">
@@ -46,7 +61,8 @@
                 Nunc leo lectus, malesuada quis elit a, vulputate hendrerit erat. Sed eleifend neque sed molestie
                 porttitor. <br>
 
-                <br> Suspendisse aliquet ipsum et ante tempor, consequat convallis leo commodo. Nam a pellentesque turpis.
+                <br> Suspendisse aliquet ipsum et ante tempor, consequat convallis leo commodo. Nam a pellentesque
+                turpis.
                 Nullam sit amet felis leo. Duis vel massa eu sapien placerat laoreet ut sed tellus. Nullam vitae est et
                 quam congue sodales eu eget massa. Ut placerat ullamcorper sem non venenatis. Nunc sagittis vel nisi eu
                 aliquet. Cras ultricies, turpis ac lacinia dictum, lectus magna placerat urna, ut rhoncus sapien metus
@@ -57,7 +73,53 @@
         </div>
     </section>
 
-    <footer id="contacto">
+    <section id="contacto">
+        <div class="contenedor">
+            <div class="contenedor-tarjetas">
+
+                <div class="tarjetas">
+                    <img src="./img/ubicacion.png" alt="">
+                    <h3> ¿Donde estamos? </h3>
+
+                    <p>Gral. Acha 451, Ramos Mejia </p>
+                    <p>Buenos Aires - Argentina</p>
+                </div>
+                <div class="tarjetas">
+                    <img src="./img/horarios.png" alt="">
+                    <h3> Horarios </h3>
+                    <p>Lun a Vier 10:00 a 14:00hs y 16:00 a 20:00hs </p>
+                    <p>Sábados: 10:00 a 16:00hs</p>
+                </div>
+                <div class="tarjetas">
+                    <img src="./img/telefono.png" alt="">
+                    <h3> Teléfonos </h3>
+                    <p>2056-8396</p>
+                    <p>11-2056-8396</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="redes">
+        <h3 class="seguinos"> Seguinos en:</h3>
+        <div class="contenedor-redes">
+            <div class="redes-sociales">
+
+            <a class="redes" href="https://www.facebook.com/" target="_blank"><img
+             src="./img/facebook.jpg" ></a>
+             <a class="redes" href="https://www.instagram.com/" target="_blank"><img
+            src="./img/INSTAAAAA.png" ></a>
+            <a class="redes" href="https://www.twitter.com/" target="_blank"><img
+             src="./img/twiteer.png" ></a>
+
+            </div>
+
+        </div>
+        </div>
+
+
+
 
     </footer>
 
